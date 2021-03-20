@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+      aside#left{width: 250px; height: 2220px; float: left; background-color: white;}
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a class="active" href="#home">inicio</a></li>
+        <li><a href="#parte2">Aplicar CSS</a></li>
+        <li><a href="#parte3">Comentario</a></li>
+        <li><a href="#parte4">Estructura</a></li>
+        <li><a href="#parte5">Selectores</a></li>
+      </ul>
+      
+      
+      
+      <section id="home" data-stellar-background-ratio="0.5">
+      <header>
+
+
+
+      <h1>Que es Css</h1>
+    </header>
+  
+    <aside>
+      <img src="images/logousac.png" width="30%">
+    </aside>
+      
+    
+    <main>
+        <p>CSS es un lenguaje utilizado en la presentación de documentos HTML.
+        <br>
+        CSS son las siglas de “Cascading Style Sheets” (hojas de estilo en cascada).
+        <br> Es un documento HTML viene siendo coloquialmente “una página web”. Entonces podemos 
+        decir que el lenguaje CSS sirve para organizar la presentación y aspecto de una página web. 
+        Este lenguaje es principalmente utilizado por parte de los navegadores web de internet y por 
+        los programadores web informáticos para elegir multitud de opciones de presentación como colores, tipos 
+        y tamaños de letra, etc.
+      <br>
+      CSS se basa en intentar separar lo que es la estructura del documento HTML de su presentación. 
+      Por decirlo de alguna manera: la página web sería lo que hay debajo (el contenido) y CSS sería un
+       cristal de color que hace que el contenido se vea de una forma u otra. Usando esta filosofía, 
+       resulta muy fácil cambiarle el aspecto a una página web: basta con cambiar “el cristal” que tiene delante. 
+       Piensa por ejemplo qué ocurre si tienes un libro de papel y lo miras a través de un cristal de color 
+       azul: que ves el libro azul. En cambio, si lo miras a través de un cristal amarillo, verás el libro amarillo. 
+       El libro (el contenido) es el mismo, pero lo puedes ver de distintas maneras.
+        </p>
+      
+    
+      
+
+
+     
+        <p>CSS se creó para cubrir la necesidad de definir un mecanismo que permitiera aplicar 
+        diferentes estilos a los documentos. Este lenguaje se impulsó con el crecimiento del lenguaje HTML. 
+        La guerra de navegadores y la falta de un estándar que definiera los estilos, dificultaba la creación de documentos 
+        con la misma apariencia en diferentes navegadores. El organismo W3C (World Wide Web Consortium) 
+        es el encargado de crear los estándares  relacionados con programación Web, se le propusieron varias propuestas
+        de hojas de estilo. Las dos propuestas que se tuvieron en cuenta son: CHSS (Cascading HTML Style Sheets) y 
+        SSP (Stream-based Style Proposal). Estas dos propuestas se unieron entre 1994 y 1995 por Håkon Wium Lie  y B
+        ert Bos y definieron un lenguaje con lo mejor de cada una este fue llamado CSS (Cascading Style Sheet). 
+        En 1995, W3C aposto por este lenguaje y lo estandarizo. En 1998 se publicó la segunda versión de este lenguaje que fue 
+        llamada CSS nivel2. Es la versión que se utiliza actualmente en los navegadores. Y ese mismo año se empezó con 
+        el desarrollo de CSS nivel 3 que continua en desarrollo actualmente, solo se han publicado borradores.</p>
+      </section>
+
+        <section id="parte2" data-stellar-background-ratio="0.5">
+        <p>
+            <h2> Formas de aplicar Css </h2>
+            <br>
+
+           <h2>1. CSS en línea</h2> 
+
+           Los estilos en línea son declaraciones CSS que se integran en las etiquetas HTML mediante el atributo style. 
+           Este método tan solo afecta al elemento en el que se integra el código.
+          <br>
+           <img src="images/enlinea.png" width="50%">
+          <br>
+          <br>
+
+        
+        </p>
+
+        <p>
+         
+
+         <h2>2. CSS incrustado en la cabecera</h2> 
+
+         Otra manera muy simple de añadir estilo con CSS es utilizando la etiqueta style 
+         en la cabecera  head  del fichero HTML del sitio. 
+        <br>
+         <img src="images/cabecera.png" width="50%">
+        <br>
+        <br>
+
+      
+      </p>
+
+      <p>
+         
+
+        <h2>3. CSS en hojas de estilo externas</h2> 
+
+        Otra manera muy simple de añadir estilo con CSS es utilizando la etiqueta style 
+        en la cabecera  head  del fichero HTML del sitio. 
+       <br>
+        <img src="images/externo.png" width="50%">
+       <br>
+       <br>    
+     </p>
+    </section>
+
+
+    <section id="parte3" data-stellar-background-ratio="0.5">
+
+     <p>
+      <h2>Qué es un comentario y como se escribe en CSS.</h2>
+
+      Un comentario es una cadena de código o texto en HTML, XML, CSS, JS y otros 
+      lenguajes de programación que no es visible en su navegador web. 
+      El comentario es utilizado para ofrecer alguna información sobre el código, desactivarlo 
+      temporalmente o para presentar otros comentarios de los desarrolladores de código.
+
+        <br>
+        <br>
+        <img src="images/ejemplo1.png" width="50%">
+
+     </p>
+    </section>
+
+
+
+     <section id="parte4" data-stellar-background-ratio="0.5">
+          <p>
+            <h2>Estructura de CSS</h2>
+
+            <h2>Selector:</h2> El selector es el elemento HTML que vamos a seleccionar del documento para aplicarle un estilo concreto. 
+            Por ejemplo, el elemento p. Realmente, esto es mucho más complejo, pero ya dedicaremos una serie de 
+            capítulos exclusivamente a este tema.
+            <br>
+
+            <h2>Propiedad:</h2> La propiedad es una de las diferentes características que brinda el lenguaje CSS e iremos aprendiendo.
+            <br>
+
+            <h2>Valor:</h2> Cada propiedad CSS tiene una serie de valores concretos, con los que tendrá uno u otro comportamiento.
+
+            <br>
+            <br>
+
+            <img src="images/reglas.png" width="50%">
+
+          </p>
+
+    </section>
+
+
+
+    <section id="parte5" data-stellar-background-ratio="0.5">
+      <p>
+        <h2>Selectores</h2>
+        Veamos ahora cuáles son los selectores básicos que podemos utilizar en CSS.
+
+        <h3>Selector universal</h3>
+        <img src="images/universal.png" width="50%"> 
+
+        <h3>Selector de Etiqueta</h3>
+
+        <img src="images/etiqueta.png" width="50%">
+
+        <h3>Selector de clase</h3>
+        <img src="images/clase.png" width="50%">
+
+        <h3>Selector Identificador </h3>
+        <img src="images/identificador.png" width="50%">
+
+        <h3>Descendiente</h3>
+        <img src="images/desendiente.png" width="50%">
+
+        <h3>Combinacion de Selectores</h3>
+        <img src="images/combinacion.png" width="50%">
+
+        <h3>Selectores Hijos</h3>
+        <img src="images/hijos.png" width="50%">
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    Pagina hecha por Lesther Austin Guillermo Taquirá Teleguario 201013381
+  </footer>
+</body>
+</html>
